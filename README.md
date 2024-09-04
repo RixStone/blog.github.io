@@ -1,1 +1,1 @@
-# wuyangyang.github.io
+# blog.github.io
