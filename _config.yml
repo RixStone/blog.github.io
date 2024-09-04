@@ -103,6 +103,6 @@ theme: stellar
 deploy:
   type: 'git'
   # git仓库的地址
-  repo: https://github.com/RixStone/wuyangyang.github.io.git
+  repo: https://github.com/RixStone/blog.github.io.git
   # 构建网页的分支(此分支存储生成的静态网页，与main分支源码区分开)
   branch: master
