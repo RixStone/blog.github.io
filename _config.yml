@@ -96,9 +96,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: stellar
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  # git仓库的地址
+  repo: git@github.com:RixStone/hexo-theme-stellar.git
+  # 构建网页的分支(此分支存储生成的静态网页，与main分支源码区分开)
+  branch: master
